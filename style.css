@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 80%;
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+img {
+    height: 150px;
+}
+
+.contact {
+    font-style: italic;
+}
+
+h2 {
+    font-weight: bold;
+    background-color: gray;
+    color: white;
+}
+span {
+    font-weight: bold;
+}
