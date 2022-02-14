@@ -1,21 +1,25 @@
 body {
     display: flex;
     justify-content: center;
+    border: solid #000000;
 }
 
 .wrapper {
-    width: 80%;
-    
+    width: 80%;    
+}
+
+header {
+    font-size: 20px;
+    display: inline;
 }
 
 h1 {
-    font-size: 40px;
-    display: inline;
-    border: 1px;
+    display: inline-flex;
+    margin-bottom: 70px;
 }
 
 img {
-    height: 100px;
+    height: 120px;
     float: right;
 }
 
@@ -25,9 +29,13 @@ img {
 
 h2 {
     font-weight: bold;
-    background-color: rgb(131, 131, 131);
     color: white;
+    background-color: rgb(168, 168, 168);
 }
 span {
     font-weight: bold;
+}
+
+section {
+    margin-top: 40px;
 }
