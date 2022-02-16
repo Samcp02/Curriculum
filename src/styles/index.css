@@ -13,6 +13,11 @@ header {
     display: inline;
 }
 
+.navegation {
+    font-style: italic;
+    background-color: yellow;
+}
+
 h1 {
     display: inline-flex;
     margin-bottom: 70px;
