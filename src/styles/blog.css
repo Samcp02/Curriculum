@@ -8,7 +8,8 @@ body {
 
 header {
     font-size: 20px;
-    display: inline;
+    margin: 20 px;
+    margin: 50px, 30px;
 }
 .navegation {
     display: flex;
@@ -32,13 +33,14 @@ section {
     margin: 30px;
 }
 
+article {
+    margin: 10px;
+}
+
 .categorias {
     display: flex;
     flex-grow: 1;
-}
-
-h1 {
-    margin-bottom: 70px;
+    margin: 30px;
 }
 
 h2 {
