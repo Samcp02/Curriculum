@@ -10,9 +10,34 @@ header {
     font-size: 20px;
     display: inline;
 }
+.navegation {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    background-color: yellow;
+    margin: 30px;
+}
+
+.title {
+    flex-grow: 1;
+    margin-right: 50px;
+    padding: 5px, 5px;
+    margin-right: 20px;
+}
+.news {
+    margin: 30px;
+}
+section {
+    display: flex;
+    margin: 30px;
+}
+
+.categorias {
+    display: flex;
+    flex-grow: 1;
+}
 
 h1 {
-    display: inline-flex;
     margin-bottom: 70px;
 }
 
