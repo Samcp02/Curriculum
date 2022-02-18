@@ -2,15 +2,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper {
-    width: 80%;    
-}
-
 header {
     font-size: 20px;
     margin: 20 px;
-    margin: 50px, 30px;
+    margin-bottom: 70px;
 }
+
+h2 {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(168, 168, 168);
+}
+
 .navegation {
     display: flex;
     flex-grow: 1;
@@ -19,32 +22,16 @@ header {
     margin: 30px;
 }
 
-.title {
-    flex-grow: 1;
-    margin-right: 50px;
-    padding: 5px, 5px;
-    margin-right: 20px;
-}
-.news {
+section .news {
+    display: inline-flex;
     margin: 30px;
-}
-section {
-    display: flex;
-    margin: 30px;
-}
-
-article {
-    margin: 10px;
+    background-color: aquamarine;
 }
 
 .categorias {
-    display: flex;
+    display: inline-flex;
     flex-grow: 1;
     margin: 30px;
 }
 
-h2 {
-    font-weight: bold;
-    color: white;
-    background-color: rgb(168, 168, 168);
-}
+
