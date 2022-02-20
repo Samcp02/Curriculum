@@ -1,51 +1,64 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px 40px;
+    background-color:beige;
 }
 
 header {
     font-size: 20px;
-    
+    margin-top: 40px;
+    display: flex;
+    border: 1px solid red;
 }
 
 .navegation {
-    display: flex;
+    padding: 20px 0;
+    display: inline-flex;
     justify-content: flex-end;
-    margin: 30px;
-    background-color: yellow;
-    padding: 10px 10px;
+    border: 1px solid green;
 }
 
 .navegation li {
-    margin: 20px 30px;
+    
+    margin-left: 30px;
+    text-align: right;
+    color: black;
 }
 
 h2 {
     font-weight: bold;
+    font-size: 30px;
     color: white;
-    padding: 10px 0px;
-    background-color: rgb(168, 168, 168);
+    padding: 5px 10px;
+    background-color:lightgray;
 }
 
 
 .container {
     display: flex;
-
+    justify-content:space-between;
+    margin-top: 20px;
 }
 
 
 .news {
-    background-color: aquamarine;
+    background-color:white;
+    margin-right: 50px;
+    min-width: 400px;
+    flex-grow: 2;
+}
+
+.news article {
+    margin-left: 10px;
 }
 
 
 .categories {
- display: flex;
- background-color: pink;
+    background-color:white;
+    min-width: 300px;
 }
 
 .categories li {
     padding: 20px 0;
+    color: black;
 }
-
-
