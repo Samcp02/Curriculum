@@ -5,42 +5,58 @@ body {
 }
 
 .wrapper {
-    width: 80%;    
+    width: 70%;    
 }
 
 header {
     font-size: 20px;
     display: inline;
-}
-
-.navegation {
-    font-style: italic;
-    background-color: yellow;
+    margin-top: 30px;
 }
 
 h1 {
     display: inline-flex;
-    margin-bottom: 70px;
-}
+    margin-bottom: 70px;}
 
 img {
     height: 120px;
     float: right;
+    margin-top: 20px;
 }
+
+.navegation {
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegation li {
+    margin-left: 30px;
+    text-align: right;
+    color: black;
+    font-size: 18px;
+    list-style-type: none;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding: 1px 10px;
+    background-color:lightgray;
+}
+
+.container {
+    margin-left: 20px;
+}
+
 
 .contact {
     font-style: italic;
 }
 
-h2 {
-    font-weight: bold;
-    color: white;
-    background-color: rgb(168, 168, 168);
-}
-span {
-    font-weight: bold;
-}
-
 section {
     margin-top: 40px;
 }
+
