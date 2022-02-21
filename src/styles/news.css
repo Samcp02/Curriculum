@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 40px;
+    background-color:bisque;
+    margin: 70px;
+}
+
+.wrapper {
+    width: 70px;
+}
+
+header {
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegation {
+    padding: 20px 0;
+    display: flex;
+}
+
+.navegation li {
+    margin-left: 30px;
+    text-align: right;
+    color: black;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    padding: 1px 10px;
+    background-color:lightgray;
+}
+
+.news {
+    margin-left: 30%;
+    margin-right: 5px;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+}
