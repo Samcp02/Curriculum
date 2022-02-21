@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 40px;
+    background-color:bisque;
+    margin: 70px;
+}
+
+.wrapper {
+    width: 70px;
+}
+
+header {
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegation {
+    padding: 20px 0;
+    display: flex;
+}
+
+.navegation li {
+    margin-left: 30px;
+    text-align: right;
+    color: black;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: lightgray;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+  }

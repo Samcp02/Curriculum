@@ -5,8 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="./styles/contact.css">
 </head>
 <body>
-    <h1>Contacto</h1>
+    <header>
+        <div>
+            <h1>Contacto</h1>
+        </div>
+        <nav>
+            <ul class="navegation">
+                <a href="./index.html"><li>Blog</li></a>
+                <a href="./index.html"><li>Curriculum</li></a>
+                <a href="./contact.html"><li>Contacto</li></a>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <form>
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Tu nombre..."><br>
+
+            <label for="lname">Apellidos:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Tus apellidos..."><br>
+
+            <label for="email">Correo</label><br>
+            <input type="text" id="email" name="email" placeholder="Tu correo electrónico..."><br><br>
+
+            <textarea name="message" style="width:400px; height:200px;">Escribe tus comentarios...</textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
 </body>
 </html>
